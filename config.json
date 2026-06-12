@@ -1,0 +1,43 @@
+{
+  "services": [
+    {
+      "id": "consult-online",
+      "type": "individual",
+      "capacity": 1,
+      "name": "Индивидуальная онлайн консультация",
+      "price": 3000,
+      "description": "Персональная онлайн-консультация (60 мин)"
+    },
+    {
+      "id": "consult-offline",
+      "type": "individual",
+      "capacity": 1,
+      "name": "Индивидуальная очная консультация (г. Великие Луки)",
+      "price": 3000,
+      "description": "Персональная очная консультация в г. Великие Луки (50 мин)"
+    },
+    {
+      "id": "consult-5",
+      "type": "individual",
+      "capacity": 1,
+      "name": "Пакет из 5 консультаций",
+      "price": 13000,
+      "description": "Срок действия — 3 месяца"
+    },
+    {
+      "id": "group",
+      "type": "group",
+      "capacity": 10,
+      "name": "Групповое психологическое консультирование",
+      "price": 1000,
+      "description": "Групповая терапевтическая сессия"
+    }
+  ],
+  "schedule": {
+    "timeSlots": ["10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00"],
+    "daysAhead": 45,
+    "excludeWeekends": true,
+    "excludedDates": []
+  },
+  "sessionDurationMinutes": 60
+}

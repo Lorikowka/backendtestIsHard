@@ -1,0 +1,13 @@
+# Зависимости
+node_modules/
+
+# База данных и локальные данные
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+vk-bot/data/*.json
+
+# Секреты (НИКОГДА не пушить)
+.env
+.env.*
+*.log
